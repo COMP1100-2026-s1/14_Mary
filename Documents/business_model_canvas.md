@@ -1,20 +1,19 @@
 # Business Model Canvas
 
 ## Customer Segments
-- Segment 1
-- Segment 2
+- University students attending UQ, so primarily 18-24, living in Brisbane or nearby
+- Primarily first and second year students who aren't accustomed to the course selection process
 
 ## Value Propositions
-- Value Prop 1
-- Value Prop 2
+- Show the student what the course they're selecting is a pre-requisite for, to provide a clear path for their studies
+- Show the most commonly chosen courses for a degree to indicate common pathways for students.
+- Students can create custom pathways of courses for degrees, to have peer collaboration.
 
 ## Channels
-- Channel 1.
+- Integrate software into UQ website to ensure ease of access and clarity for students when selecting courses
 
 ## Customer Relationships
-- Relationship
+- Self-service relationship where customers may find information on the UQ website.
 
 ## Revenue Streams
-- Revenue stream
-
-# Test Cards
+- Annual service and licensing fee for maintenance of the software and updates when required
