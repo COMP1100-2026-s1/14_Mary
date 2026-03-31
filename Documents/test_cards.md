@@ -24,3 +24,26 @@
 6.  Based on your past experiences with enrolling, what are some features that weren’t present or well implemented, that you desired or felt that an enrolment system should have had? 
 
 7. Did you feel that the enrolment system is responsive enough in sending feedback, confirmation and/or warnings when selecting courses, and if not, what kinds of feedback or responses would you feel would provide sufficient confirmation or prevent uncertainty after clicking a button? 
+
+## Hypothesis 2
+
+**HYPOTHESIS**: We believe that UQ students would benefit from an elegantly-designed course selection program that provides more searchable, in-depth and integrated detail about courses than is currently available.
+
+**TEST**: To verify that, we will ask existing students specifically about their issues in finding details about their courses and their experiency with the current lack of searchability and easily attainable information.
+
+**METRIC**: And measure the amount of UQ students who agree that they had significant issues specifically relating to these issues.
+
+**CRITERIA**: We are right if the amount of students who admit to having these specific issues is greater than the amount of students who claim to have no issue. 
+
+**INTERVIEW QUESTIONS**
+1. What information do you wish you had when you first began picking your courses? 
+
+2. What do you find most confusing about picking your courses at UQ? 
+
+3. Have you experienced any issues regarding being unaware of what a course at UQ may entail?
+
+4. What information sources have you sought when selecting courses? 
+
+5. Do you have any issues with deciding and finding potential elective courses?
+
+6. Based on your past experiences with enrolling, what are some features that weren’t present or well implemented, that you wish had been present for you?
