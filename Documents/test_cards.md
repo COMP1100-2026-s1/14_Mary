@@ -1,6 +1,6 @@
 # Test Cards
 
-## Hypothesis 1: Hypothesis name
+## Hypothesis 1
 
 **HYPOTHESIS**: We believe that UQ students have issues during the course selection process which could be amended by us using technology. 
 
@@ -23,4 +23,4 @@
 
 6.  Based on your past experiences with enrolling, what are some features that weren’t present or well implemented, that you desired or felt that an enrolment system should have had? 
 
-7.Did you feel that the enrolment system is responsive enough in sending feedback, confirmation and/or warnings when selecting courses, and if not, what kinds of feedback or responses would you feel would provide sufficient confirmation or prevent unsurety after clicking a button? 
+7. Did you feel that the enrolment system is responsive enough in sending feedback, confirmation and/or warnings when selecting courses, and if not, what kinds of feedback or responses would you feel would provide sufficient confirmation or prevent uncertainty after clicking a button? 
