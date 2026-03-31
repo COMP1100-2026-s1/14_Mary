@@ -24,5 +24,5 @@
 - We believe that UQ students would benefit from an elegantly-designed course selection program that provides more searchable, in-depth and integrated detail about courses than is currently available.
 
 ## Refuted Hypothesis:
-- (Proven true, but lacking in specifity)
+- (Technically proven true, but lacking in specifity)
 - We believe that UQ students have issues during the course selection process which could be amended by us using technology.  
