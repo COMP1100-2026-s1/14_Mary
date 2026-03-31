@@ -5,7 +5,9 @@
 - Primarily first and second year students who aren't accustomed to the course selection process
 
 ## Value Propositions
-- Show the student what the course they're selecting is a pre-requisite for, to provide a clear path for their studies
+- Accepted hypothesis shows interviewees requested greater searchability and integration within the course selection system, as well as more in-depth details about the course.
+- Show the student what the course they're selecting is a pre-requisite for, to provide a clear path for their studies.
+- Increase keyword searchability for students searching for electives relevant to their interest.
 - Show the most commonly chosen courses for a degree to indicate common pathways for students.
 - Students can create custom pathways of courses for degrees, to have peer collaboration.
 
