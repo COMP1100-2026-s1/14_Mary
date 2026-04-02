@@ -1,0 +1,23 @@
+# Ernest Liang Interview 4
+
+Liang (L): All right, good afternoon. This is an interview for the course of Comp 1100 and I'm here to take interviews regarding the, regarding thoughts of students on the UQ enrolment system. So if you could please just give yourself a short introduction.\
+*Subin [S]: My name is Subin, I am a student of doing a bachelor's of computer science and majoring in machine learning and I'm currently in my first year, second semester.*\
+(L): All right, so let's begin. All right, let's begin. Have you ever encountered any issues or inconveniences with the current UQ enrolment system and if you have like what issues would you say they would, they would, they are?\
+*[S]: I have encountered some issues with the current enrolment back in my first year, first semester where I almost enrolled in two third-year courses and one second-year courses because I didn't, because when they gave out the core course list, the list was like I just took all of the core components but I didn't, it wasn't ordered so I took them like in that order which I almost enrolled for and thank god I spoke to a counsellor and he told me that these are third-year and second-year courses and I got the courses that, I got a study plan for the courses I'm supposed to enroll in.*
+(L): Oh, I missed the bullet there. All right, what do you find confusing about taking your courses at the UQ, with the UQ system? Do you find anything confusing or not really?\
+*[S]: At times they don't really give the prerequisites as well and sometimes they don't give a lot of information. I mean the course profile, I think they should add more details in the course profile.*\
+(L): All right, what information, what information sources have you sought out and have you used when selecting a course?\
+*[S]: I use the study plan that is provided by UQ, the study plan for each majors and for each degrees.*\
+(L): And you also check the course profile?\
+*[S]: Yeah, sometimes.*\
+(L): All right, what information do you wish you had when you first started picking up courses?\
+*[S]: The study plans. I had to externally search about it. It's not there in the UQ. Although I looked through the videos, they just showed me how to enroll in the courses but I don't know which courses to enroll in.*\
+(L): All right, what do you consider when deciding on what electives you want to choose?\
+*[S]: I think I will look at those electives that are related to my major and those that are also related to my degree as a whole.*\
+(L): Okay, all right. Based on past experiences with enrolling, what are some features that you felt weren't implemented well or just weren't present in the current UQ enrollment system that you felt, hey this is an enrollment system, I should be able to do this? Like any specific features you felt like the UQ system didn't have or poorly implemented that you thought a proper enrollment system should have?\
+*[S]: I think it was just a study plan for me. Once I figured out the study plan for each major, I could just follow that and I could just enroll. I think if they put the study plans all in a similar website when you're enrolling your courses, then you can give students better opportunities and a better way to access which course they actually want to take instead of like accidentally picking a wrong course and regretting it later on.*\
+(L): Yeah, that's an interesting point. All right, last question. Did you feel that the enrollment system is responsive enough when sending feedback, confirmations or warnings when selecting a course? So for example, if you're going to pick a course and then they said that, oh you can't pick this course because there's a prerequisite or maybe after you select the course, they give you feedback that the course has actually been selected and is in your current roster. Do you feel that they gave sufficient enough feedback or if not, what kinds of feedback do you think the UQ system should have given?*\
+*[S]: I think they gave sufficient feedback when I tried to pick a wrong course and they sometimes will give out the warning that it has prerequisites that you have to fill before you go into the course and I just think it would be better if there was an overall layout of how you do it.*\
+(L): So it's more of a UI change rather than a feedback change?\
+*[S]: Yeah. I see.*\
+(L): All right, that's all for the interview. Thank you very much for your time man.\
