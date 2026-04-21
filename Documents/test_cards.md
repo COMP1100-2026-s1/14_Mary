@@ -65,12 +65,14 @@
 **CRITERIA**: Our hypothesis is valid if the student's responses majorly affirm that there are indeed weaknesses about the current UQ enrollment or information system, and/or if there are external sources that address common issues students want to avoid with the current official system.
 
 **INTERVIEW QUESTIONS**
-1.
+1.Could you briefly summarise your experience in choosing your courses at UQ for the very first time?
 
-2.
+2.Which parts of the course choosing process did you find challenging?
 
-3.
+3.In what ways did the organization of information on various web pages impact your experience?
 
-4.
+4.Which information regarding courses was hard to locate or understand, for instance, workload or course difficulty level?
 
-5.
+5.What sources or individuals did you depend on to aid you in making your choices regarding courses?
+
+6.If the enrolment system assisted you in completing the task, what form of guidance would have helped you?
