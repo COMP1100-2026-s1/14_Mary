@@ -30,10 +30,10 @@
 6.If the enrolment system assisted you in completing the task, what form of guidance would have helped you?
 
 
-## Hypotheses 4 (Iteration 2)
+## Hypothesis 4 (Iteration 2)
 
 **HYPOTHESIS**: In our consideration, the EAIT courses are highly relied on prerequisite courese. So EAIT students might lack a visible and long-term tool to plan their study directions.
-**TEST**: We are going to start a in-depth enquiry on EAIT students, questions be foucs on experences on prerequisites:
+**TEST**: We are going to start a in-depth enquiry on EAIT students. Questions will foucs on experences on prerequisites:
 * Do they realize the serious consequences that missing a prerequisite course could lead to being unable to take multiple subsequent courses?
 * When they are planning future courses, do they use official systems? or use other approaches like drawing a course tree on paper or excel?
 * Have you ever repeatedly checked the course selection requirements and graduation standards when choosing courses? Do you feel tedious?
