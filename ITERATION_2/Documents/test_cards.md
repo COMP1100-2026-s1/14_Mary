@@ -32,12 +32,23 @@
 
 ## Hypotheses 4 (Iteration 2)
 
-**HYPOTHESIS**:
+**HYPOTHESIS**: In our consideration, the EAIT courses are highly relied on prerequisite courese. So EAIT students might lack a visible and long-term tool to plan their study directions.
+**TEST**: We are going to start a in-depth enquiry on EAIT students, questions be foucs on experences on prerequisites:
+* Do they realize the serious consequences that missing a prerequisite course could lead to being unable to take multiple subsequent courses?
+* When they are planning future courses, do they use official systems? or use other approaches like drawing a course tree on paper or excel?
+* Have you ever repeatedly checked the course selection requirements and graduation standards when choosing courses? Do you feel tedious?
+* Estimate their urgent need for "automatic conflict detection" and "graduation progress prediction" features.
 
-**TEST**: 
 
-**METRIC**: 
+**METRIC**: compute the percentage of students manually create their academic planning trees, and the percentage of students who would prefer a new official tool for doing so?
 
-**CRITERIA**: 
+**CRITERIA**: The hypothesis holds if most EAIT students say the existing system is of little help with "long-term planning" and "prerequisite logic hints," and they strongly desire a visual diagram of course relationships.
 
 **INTERVIEW QUESTIONS**
+1. As an EAIT student, do you find the prerequisite requirements are very complicated? Have you ever chosen the wrong course because you didn't read the requirements carefully?
+
+2. When faced with a large number of technical electives, how do you ensure that your portfolio meets the degree requirements?
+
+3. Where do you think the existing SI-net or course query system of UQ has design flaws in terms of user logic?
+
+4. If the system could automatically generate a "plan tree from freshman to senior year" for you and mark which are core required courses and which are subsequent courses, how much would this improve your course selection experience?
