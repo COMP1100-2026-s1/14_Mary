@@ -1,28 +1,28 @@
 # Business Model Canvas
 
 ## Customer Segments
-- University students attending UQ, so primarily 18-24, living in Brisbane or nearby
-- Primarily first and second year students who aren't accustomed to the course selection process
+- University students, aged between 17-24, who are currently studying an undergraduate degree. 
+- This is to observe clearer data on the difficulties of enrollment from people starting university.
 
 ## Value Propositions
-- Accepted hypothesis shows interviewees requested greater searchability and integration within the course selection system, as well as more in-depth details about the course.
-- Show the student what the course they're selecting is a pre-requisite for, to provide a clear path for their studies.
-- Increase keyword searchability for students searching for electives relevant to their interest.
-- Show the most commonly chosen courses for a degree to indicate common pathways for students.
-- Students can create custom pathways of courses for degrees, to have peer collaboration.
+- Accepted hypothesis shows interviewees requested greater clarity and simpler integration of information when enrolling.
+- Show the student the prerequesites, if any, for all courses that they may enroll in.
+- Relate certain keywords and topics of interests to elective courses that may interest the student.
+- Allow students to post their preferred or suggested order of courses they studied.
+- Students can see the most commonly chosen order of courses from previous and current students who took the same degree.
 
 ## Channels
-- Integrate software into UQ website to ensure ease of access and clarity for students when selecting courses
+- Integrate software into the UQ website and the SI-net website, to ensure ease of information and better clarity to access necessary course information.
 
 ## Customer Relationships
-- Self-service relationship where customers may find information on the UQ website.
+- Students will have no interactions with developers outside of a customer support network, where students may contact us for any issues.
 
 ## Revenue Streams
-- Annual service and licensing fee for maintenance of the software and updates when required
+- An annual service fee for maintainence and licensing will be required to maintain the quality and stability of the software.
 
 ## Accepted Hypothesis: 
-- We believe that UQ students would benefit from an elegantly-designed course selection program that provides more searchable, in-depth and integrated detail about courses than is currently available.
+- We believe that a major and surprisingly common pain point UQ students regarding the UQ enrolment system is the lack of context and information when selecting courses, or at least a lack of convenience and clarity when looking up the appropriate sources.
 
 ## Refuted Hypothesis:
 - (Technically proven true, but lacking in specifity)
-- We believe that UQ students have issues during the course selection process which could be amended by us using technology.  
+- We believe that UQ students would benefit from an elegantly-designed course selection program that provides more searchable, in-depth and integrated detail about courses than is currently available.
