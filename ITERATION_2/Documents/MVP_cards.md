@@ -1,6 +1,6 @@
 # MVP Test and Learning Cards
 
-## MVP Hypothesis
+## MVP Hypothesis and Test Cards
 
 **HYPOTHESIS**: We believe that Engineering, Architecture and Information Technology (EAIT) students would benefit from a streamlined, elegantly designed course-selection webapp that simplifies and collates all relevant course details (especially pertaining to course pre-requisites and future courses possiblities), provides yearly suggested course structures for each degree, allows for users to search courses by keywords in the course details, and provides ways for users to publicly rate and review courses they have undertaken.
 
