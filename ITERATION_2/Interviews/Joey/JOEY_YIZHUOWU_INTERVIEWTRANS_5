@@ -1,0 +1,27 @@
+Okay, I have got the consent to record. First, just to confirm, you’re Software Engineering major, right? What are some "pain points" you’ve encountered while using the UQ enrollment system?
+
+Exactly. The most immediate issue is the messy information architecture. For example, if I want to check a course's prerequisites, the system doesn't show them directly; I have to click an external ECP link. As an engineering student, I’m used to the direct logic of API documentation. This constant jumping between tabs really breaks my train of thought.
+
+Totally agree. It’s like having too many context switches. Regarding the prerequisite descriptions, do you think the current text-based format is clear enough?
+
+It’s pretty bad. Sometimes the logic is something like the pair A and B, or the pair C and D. In the system, it’s just a long block of plain text. I have to read it several times just to make sure I’m eligible. If I were the designer, I’d definitely use a logic flowchart to show that.
+
+A flowchart will definitely be more intuitive than a sentence.What about electives? Do you ever feel overwhelmed when facing so much electives to choose?
+
+Not really, because my goals are quite fixed. I usually refer course reviews from seniors. My experience is that official descriptions are often too formal; you only find out the actual workload from people who’ve actually taken the course.
+
+How exactly do you determine and arrange your study plan to ensure you graduate on time?
+
+To be honest, I haven't paid much attention to that. I have a ready-made study plan that I either put together based on the Program Handbook that means i don't need to manually validate the credits or worry about meeting graduation requirements at all. 
+
+OK. Last question: if you had to define the biggest flaw, would you pick the visual design or the operational logic?
+
+The visual design is a problem, but the logical flaws are more fatal.
+
+Why? 
+
+I can tolerate an out of dated UI, but if it interferes with how fast I can find key info, like Course IDs or locations. Then it’s a functional failure. If I were to simplify it, I’d strip away all the redundant personal background info and give the center of the page to a "Course Dependency Map."
+
+Thank you. That's all for the interview.
+
+Thank you.

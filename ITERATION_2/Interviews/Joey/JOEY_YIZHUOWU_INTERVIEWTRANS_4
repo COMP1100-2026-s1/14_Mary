@@ -1,0 +1,29 @@
+Major：Computer Science, EAIT
+
+OK. I am going to record your voice. 
+
+yeah, go on please.
+
+thank you. As an EAIT student, have you encountered any difficulties while using the UQ enrollment system?
+
+Not really. To me, the prerequisite logic is quite clear; after all, parsing these logic relationships is a basic skill for us. But the real pain point is the high cost of information retrieval: looking up course descriptions is tedious. I have to keep jumping between SI-net, Programs and Courses, and ECPs. The information is too fragmented, and this constant context switching is a huge waste of time.
+
+I see. Do you feel overwhelmed when faced with heaps of electives?
+
+err,, that's not the case. My goals are very clear. I only choose courses with strong future prospects that can boost my career competitiveness, like distributed systems, machine learning, or cybersecurity. I care more about the core value of the course and its industry recognition rather than how easy it is to get a good grade. For me, enrollment itself is an optimization problem of resource allocation.
+
+yeah, you have a clear mind. and if the system provided a "Study Plan Tree," how helpful would that be?
+
+It depends on whether the plan tree itself is reliable. The key is whether it's detailed and clear enough. Most importantly, it can't be a rigid recommendation; it must allow users to change the plan based on  preferences and give real-time feedback on any logic conflicts.
+
+yeah. You mentioned reliable. What exactly do you mean by "reliable"? Is it the timeliness of data updates or the accuracy of the logic validation?
+
+Both, and even more. For example, if a course's prerequisites change next year, the system must immediately flag it in red on my plan tree. Also, it would be better if it could integrate "average workload" data so I can avoid picking three "heavy" courses in the same semester.
+
+Agree. If you were the designer, how would you define the user experience for this system?
+
+I’d propose keywords like "High Customizability" and "Information Integration." I don't like passively accepting suggestions from a system. I want all course dependencies, credit progress, and core info from ECPs integrated into a single dashboard, instead of finding a needle in a haystack.
+
+Thank you. All for the interview. Thank you for your cooperation.
+
+No worries.
