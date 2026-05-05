@@ -7,7 +7,7 @@ import React from 'react'
 
 function Layout() {
     return (
-        <div>
+        <>
             <Header></Header>
 
             <main>
@@ -15,7 +15,7 @@ function Layout() {
             </main>
 
             <Footer></Footer>
-        </div>
+        </>
     )
 }
 

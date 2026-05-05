@@ -11,10 +11,7 @@ b. AI outputs have the risk of hallucinating fake or nonsensical data which will
 c. AI recommendations about schedule may only draw from surface-level information, and not factor in nuances and complexities that actual websites and course coordinators can plan around and communicate to users
 d. Depending on response limitations AIs may fail to fully account for all requirements or details, and produce wrong and clashing course plans either way |
 
-| Personal Notes & Scheduling | Students with Information Gathering Skills and a Preference for Manual Control over Data | “Unconstrained Sandbox Planning” | a. Requires manual typing & organizing of data
-b. Requires gathering data manually the same sources as competitors in the first place
-c. Data validity is wholly dependent on individual user checking and verification, which introduces risks if user includes inaccurate data into their own plans
-d. Plan quality and presentation for future reference also wholly dependent on individual’s document formatting skills |
+| Personal Notes & Scheduling | Students with Information Gathering Skills and a Preference for Manual Control over Data | “Unconstrained Sandbox Planning” | a. Requires manual typing & organizing of data\nb. Requires gathering data manually the same sources as competitors in the first place\nc. Data validity is wholly dependent on individual user checking and verification, which introduces risks if user includes inaccurate data into their own plans\nd. Plan quality and presentation for future reference also wholly dependent on individual’s document formatting skills |
 
 | Seniors & Friends | Students who have friends, contacts our course-mates that have been through the same courses as them and whose information can now be shared to create study plans based on their own past experiences | “Sincere advice, qualified by lived experience” | a. Wholly dependent on the availability of friends or contacts on the user’s part, that also have gone through and experienced the same (or similar) programs as them
 b. Quality of advice is also dependent on the memory & understanding of the contact – Just because someone has had experience doesn’t mean that their knowledge or interpretation is accurate
