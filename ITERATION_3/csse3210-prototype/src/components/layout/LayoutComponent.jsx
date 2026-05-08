@@ -14,6 +14,7 @@ function Layout() {
                 <Outlet></Outlet>
             </main>
 
+            <br/><hr/>
             <Footer></Footer>
         </>
     )
