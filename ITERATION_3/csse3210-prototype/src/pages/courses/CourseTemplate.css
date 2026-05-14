@@ -1,0 +1,103 @@
+* {
+    font-family: Helvetica;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: stretch;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.course-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-name{
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.course-code{
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.future-courses{
+    text-align: left;
+    
+}
+
+.introduction-heading, .fc-heading, .reviews-title{
+    font-size: 2rem;
+}
+
+.course-description{
+    font-size: 1rem;
+}
+
+.reviews-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.review{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    border: 1px solid black;
+}
+
+.review-header{
+    display: flex;
+    flex-direction: row;
+}
+
+.review-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.course-tree{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tree-image{
+    width: 300px;
+    -webkit-text-stroke: 3px green;
+
+}
+
+.tree-title{
+    position: relative;
+    top: 100px;
+    color: black;
+    font-size: 2rem;
+    paint-order: stroke fill;
+    font-weight: bold;
+}
+
+.under-tree{
+    display: flex;
+    flex-direction: row;
+}
+
+.tree-group{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    position: relative;
+    bottom: 80px;
+    color: black;
+    font-size: 1.5rem;
+    paint-order: stroke fill;
+}

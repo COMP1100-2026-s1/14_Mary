@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import './CourseTemplate.css';
+import tree_img from './assets/tree.png'
+import pfp_img from './assets/silhouette-male-icon.svg'
 
 function CourseTemplate() {
 
@@ -46,20 +49,50 @@ function CourseTemplate() {
         {
             id: 1,
             name: "Introduction to Software Innovation",
-            code: "COMP 1100",
+            code: "COMP1100",
             description: courseDesc1,
-            prerequisites: ["CSSE 1001", "DECO 1400"],
-            incompatibles: ["COMP 7110"],
+            prerequisites: ["CSSE1001", "DECO1400"],
+            incompatibles: ["COMP7110"],
+            outcomes: ["COMP4500"],
+            reviews: [
+                {
+                    username: "John Alfred",
+                    content: "This course was THOROUGHLY enjoy able!",
+                    dateposted: "21/06/2025",
+                    rating: 5
+                },
+                {
+                    username: "Thomas Cousins",
+                    content: "This course enjoy able!",
+                    dateposted: "05/04/2025",
+                    rating: 5
+                }
+            ]
             // aimsAndOutcomes? : ?,
             // assessments? : ?
         },
         {
             id: 2, 
             name: "The Software Process",
-            code: "CSSE 3021",
+            code: "CSSE3021",
             description: courseDesc2,
-            prerequisites: ["COMP 2140", "DECO 2500"],
-            incompatibles: ["COMP 3500", "COMP 7503", "CSSE 3002", "CSSE 7001"]
+            prerequisites: ["COMP2140", "DECO2500"],
+            incompatibles: ["COMP3500", "COMP7503", "CSSE3002", "CSSE7001"],
+            outcomes: ["COMP4500"],
+            reviews: [
+                {
+                    username: "John Alfred",
+                    content: "This course was THOROUGHLY enjoy able!",
+                    dateposted: "21/06/2025",
+                    rating: 5
+                },
+                {
+                    username: "Thomas Cousins",
+                    content: "This course enjoy able!",
+                    dateposted: "05/04/2025",
+                    rating: 5
+                }
+            ]
         },
     ]
 
@@ -115,46 +148,68 @@ function CourseTemplate() {
             {/* Course Detail Display */}
             {coursesToShow.map((course) => (
                     
-                <div key={course.id} className="card my-3">
-                    <div className="card-body">
-                            <div>
-                                <div className="row mb-3">
-                                    <h3>{course.name}</h3>
-                                    <div className="overflow-auto">
-                                        <p>{course.description}</p>
-                                    </div>
-                                    
+
+                            <div className="info-container" key={course.id}>
+                                <div className="course-heading">
+                                    <div className="course-name">{course.name}</div>
+                                    <div className="course-code">{course.code}</div>
                                 </div>
-                                <hr/>
-                                <div className="row mb-3">
-                                    <div className="col-12 col-md-6">
-                                        <h6>Prerequisites:</h6>
-                                        <ul className="list-group">
+
+                                <div className="course-tree">
+                                    <div className="tree-title">{course.code}</div>
+                                    <img src={tree_img} className="tree-image"></img>
+                                    <div className="under-tree">
+                                        <div className="tree-group">
                                             {course.prerequisites.map((prereq, index) => (
                                                 <div key={index}>
-                                                    {/* Do we want to make this a link? Or just a display? */}
-                                                    {/* Should we show any additional information about this course, or just its name? */}
-                                                    <li className="list-group-item">{prereq}</li>
+                                                    {prereq}
                                                 </div>
                                             ))}
-                                        </ul>
+                                        </div>
                                     </div>
-                                    <div className="col-12 col-md-6">
-                                        <h6>Incompatibles:</h6>
-                                        <ul className="list-group">
-                                            {course.incompatibles.map((incompat, index) => (
-                                                <div key={index}>
-                                                    {/* Do we want to make this a link? Or just a display? */}
-                                                    {/* Should we show any additional information about this course, or just its name? */}
-                                                    <li className="list-group-item">{incompat}</li>
-                                                </div>
+                                    <div className="future-courses">
+                                        <div className="fc-heading">Future Courses:</div>
+                                        <div className="fc-course-list">
+                                            {course.outcomes.map((code, index) => (
+                                                <div key={index}>{code}</div>
                                             ))}
-                                        </ul>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                                
+                                <div className="course-introduction">
+                                    <div className="introduction-heading">Introduction to {course.code}</div>
+                                    <div className="course-description">
+                                        {course.description}
+                                    </div>
+                                </div>
+
+                                <div className="reviews-section">
+                                    <div className="reviews-title">User Ratings and Reviews:</div>
+                                    <div className="average-score">Average Rating: 8.7 out of 10</div>
+                                    <div className="reviews-list">
+                                        {
+                                            course.reviews.map((review, index) => (
+
+                                                <div className="review">
+                                                    <div className="review-picture">
+                                                        <img src={pfp_img}></img>
+                                                    </div>
+                                                    <div className="review-text">
+                                                        <div className="review-header">
+                                                            <div className="review-username">{review.username}</div>
+                                                            <div className="review-rating">{"☆".repeat(review.rating)}</div>
+                                                        </div>
+                                                        <div className="review-content">{review.content}</div>
+                                                    </div>
+                                                </div>
+                                            ))
+                                        }
+                                    </div>
+                                </div>
+
+                                <hr/>
                         
-                    </div>
                 </div>
                 
             ))}
