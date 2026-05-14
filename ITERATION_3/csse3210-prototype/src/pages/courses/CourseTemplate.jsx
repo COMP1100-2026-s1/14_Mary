@@ -156,7 +156,7 @@ function CourseTemplate() {
                                 </div>
 
                                 <div className="course-tree">
-                                    <div className="tree-title">{course.code}</div>
+                                    <div className="tree-title"><span>{course.code}</span></div>
                                     <img src={tree_img} className="tree-image"></img>
                                     <div className="under-tree">
                                         <div className="tree-group">
