@@ -11,11 +11,23 @@ function DegreeSearch() {
             degreeMajors: [
                 {
                     majorName: "Software Information Systems",
-                    majorDesc: "Lorem ipsum dolor sit amet consectetur adipiscing elit."
+                    majorDesc: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+                    recommendedCourses: {
+                        "Sem 1": ["CSSE 2002", "CSSE 2310", "DECO 2500"],
+                        "Sem 2": ["DECO 1800", "COMP 2140", "COMP 3506", "DECO 3500"],
+                        "Sem 3": ["DECO 3800", "CSSE 3012", "COMP 1100", "INFS 3202"],
+                        "Sem 4": ["DECO 3801", "DECO 2850", "INFS 3208", "INFS 2200"],
+                    }
                 },
                 {
                     majorName: "Solution Architecture",
-                    majorDesc: "Sit amet consectetur adipiscing elit quisque faucibus ex."
+                    majorDesc: "Sit amet consectetur adipiscing elit quisque faucibus ex.",
+                    recommendedCourses: {
+                        sem1: ["CSSE 2002", "CSSE 2310", "DECO 2500"],
+                        sem2: ["DECO1800", "COMP2140", "COMP3506", "DECO3500"],
+                        sem3: ["DECO 3800", "CSSE 3012", "COMP 1100", "INFS 3202"],
+                        sem4: ["DECO 3801", "DECO 2850", "INFS 3208", "INFS 2200"],
+                    }
                 }
             ]
         },
@@ -96,8 +108,8 @@ function DegreeSearch() {
 
     // Degree Template Page Navigation
     const navigate = useNavigate();
-    const degreeRedirect = (degId) => {
-        navigate(`/degrees/id/${degId}`);
+    const degreePlanRedirect = (degreeMajor, degreeName) => {
+        navigate(`/degree-plans`, { state: { degreeMajorData: degreeMajor, degreeName: degreeName } });
     }
 
     return (
@@ -107,7 +119,6 @@ function DegreeSearch() {
             <div className="container">
                 <h1>Degree Plan Suggestions</h1>
             </div>
-
             <br/>
 
             {/* Degree Search */}
@@ -153,7 +164,7 @@ function DegreeSearch() {
                                 <div id={`collapse${index}`} className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#degreeDetailsAccordion">
                                     <div className="accordion-body">
                                         <p>{major.majorDesc}</p>
-                                        <a className="text-primary" onClick={() => degreeRedirect(selectedDegree.degreeId)}>
+                                        <a className="text-primary" onClick={() => degreePlanRedirect(major, selectedDegree.degreeName)}>
                                             View Course Plans
                                         </a>
                                     </div>
