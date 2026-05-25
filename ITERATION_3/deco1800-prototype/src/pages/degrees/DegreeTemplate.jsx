@@ -1,6 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
-import { useParams, useLocation } from "react-router-dom";
+import { useSearchParams, useLocation, Link } from "react-router-dom";
+
+import academicData from '../../data/academic_data.json'
 
 function message() {
     alert("Hi there!")
@@ -8,8 +10,20 @@ function message() {
 
 function DegreeTemplate() {
 
+    const degreeBank = academicData.degrees || [];
+    const majorBank = academicData.majors || [];
+    const courseBank = academicData.courses || [];
+
     const location = useLocation();
-    const { degreeMajorData, degreeName } = location.state || {};
+    // const { degreeMajorData, degreeName } = location.state || {};
+
+    const [searchParams] = useSearchParams();
+    const targetDegreeId = searchParams.get("degreeId");
+    const degreeData = degreeBank.find(degree => degree.degreeId == targetDegreeId);
+    const targetMajorId = searchParams.get("majorId");
+    const majorData = majorBank.find(major => major.majorId == targetMajorId);
+
+    const degreeName = degreeData.degreeName;
 
     return (
         <div className="container-fluid">
@@ -17,29 +31,25 @@ function DegreeTemplate() {
             {/* Title */}
             <div className="container">
                 <h2 className="text-center">{degreeName} Study Plan</h2>
-                <h3 className="text-center">Major: {degreeMajorData.majorName}</h3>
+                <h3 className="text-center">Major: {majorData.majorName}</h3>
             </div>
+            <hr/>
 
             {/* Course List */}
             <div className="container">
                 <h5 className="my-2 fw-bold">Recommended Courses</h5>
                 <table className="table">
                     <tbody>
-                        {Object.entries(degreeMajorData.recommendedCourses).map(([key, value]) => (
+                        {Object.entries(majorData.recommendedCourses).map(([key, value]) => (
                             <tr>
                                 <th>
                                     {key}: 
                                 </th>
                                 {Array.from({ length: 4 }).map((_, index) => (
                                     <th key={index}>
-                                        {value[index] || "-"}
+                                        <Link to={`/courses-select?courseCode=${value[index]}`}>{value[index] || "-"}</Link>
                                     </th>
                                 ))}
-                                {/* {value.map((course, index) => (
-                                    <div className="col">
-                                        {course}
-                                    </div>
-                                ))} */}
                             </tr>
                         ))}
                     </tbody>

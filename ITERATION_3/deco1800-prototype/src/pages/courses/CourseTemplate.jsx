@@ -3,6 +3,10 @@ import './CourseTemplate.css';
 import tree_img from './assets/tree.png'
 import pfp_img from './assets/silhouette-male-icon.svg'
 
+import { useSearchParams, Link } from 'react-router-dom';
+
+import academicData from '../../data/academic_data.json'
+
 function CourseTemplate() {
 
     var courseDesc1 = `
@@ -44,6 +48,13 @@ function CourseTemplate() {
 
         Three assessments now allow the use of AI tools. A demonstration will be provided on how to use AI efficiently and ethically.
     `
+
+    const courseBank = academicData.courses || [];
+
+    const [searchParams, setSearchParams] = useSearchParams();
+    const targetCourseCode = searchParams.get('courseCode') || "";
+    const courseData = courseBank.find(course => course.courseCode == targetCourseCode);
+
 
     const courses = [
         {
