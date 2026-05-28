@@ -76,7 +76,6 @@ function DegreeTemplate() {
                                             <td key={index} className="p-3">
                                                 {courseCode && courseCode !== "-" ? (
                                                     // purple card for actual courses
-<<<<<<< HEAD
                                                     <div className="card border-0 shadow-sm text-center p-3 h-100 position-relative" 
                                                          style={{
                                                              backgroundColor: '#73B665', 
@@ -96,46 +95,6 @@ function DegreeTemplate() {
                                                         </span>
                                                         <small className="text-muted" style={{ fontSize: '0.75rem' }}>UQ Course</small>
                                                     </div>
-=======
-                                                
-                                                    <Link 
-                                                        to='/courses' // link to course detail page
-                                                        state={{ searchKeyword: courseCode }} 
-                                                        className="text-decoration-none d-block" // remove underline, make cell fill the space
-                                                        title={`View the ${courseCode} course description`}
-                                                        style={{ cursor: 'pointer' }} 
-                                                    >
-                                                        <div style={{ 
-                                                            backgroundColor: '#f5f0fa', 
-                                                            border: 'none !important', 
-                                                            borderLeft: '6px solid #49006A !important', 
-                                                            boxShadow: '0 .125rem .25rem rgba(0,0,0,.075)', 
-                                                            borderRadius: '8px',
-                                                            minHeight: '80px', 
-                                                            padding: '1rem',
-                                                            textAlign: 'center',
-                                                            display: 'flex',
-                                                            flexDirection: 'column',
-                                                            justifyContent: 'center',
-                                                            transition: 'transform 0.2s, box-shadow 0.2s'
-                                                        }}
-                                                        // interactive visual hover effect
-                                                        onMouseEnter={(e) => {
-                                                            e.currentTarget.style.transform = 'translateY(-2px)';
-                                                            e.currentTarget.style.boxShadow = '0 .25rem .5rem rgba(0,0,0,.15)';
-                                                        }}
-                                                        onMouseLeave={(e) => {
-                                                            e.currentTarget.style.transform = 'translateY(0)';
-                                                            e.currentTarget.style.boxShadow = '0 .125rem .25rem rgba(0,0,0,.075)';
-                                                        }}
-                                                        >
-                                                            <span className="fw-bold text-dark d-block mb-1" style={{ fontSize: '1.05rem', letterSpacing: '0.5px' }}>
-                                                                {courseCode}
-                                                            </span>
-                                                            <small className="text-muted" style={{ fontSize: '0.75rem' }}>UQ Course</small>
-                                                        </div>
-                                                    </Link>
->>>>>>> 99a345cb82a4db983b1e893666eae239ab34e293
                                                 ) : (
                                                     // The dashed placeholder box when blank
                                                     <div className="d-flex align-items-center justify-content-center border border-2 border-dashed text-muted rounded p-3" 
