@@ -45,7 +45,125 @@
                     "rating": 5
                 }
             ]
+        },
+        {
+            "courseId": 3,
+            "courseName":"Introduction to Software Engineering ",
+            "courseCode":"CSSE1001",
+            "courseDescription": "courseDesc1",
+            "coursePrereqs": ["N/A"],
+            "courseIncompatibles": ["COMP1502, CSSE7030, ENGG1001"],
+            "courseOutcomes": ["CSSE2002, CSSE2010, CSSE2310, COMP3506, COMP3702, DATA2001, INFS3202, SCIE2100"],
+            "courseReviews": [
+                { 
+                    "username":"Darren Watkins jr",
+                    "content":"This course was way to slow it needed to have a faster pace",
+                    "dateposted":"6/06/2025",
+                    "rating":2
+                },
+                {
+                    "username":"Aubrey Graham",
+                    "content":"If I could I would do this course again it was nice man",
+                    "dateposted":"23/04/2024",
+                    "rating":4
+                }
+            ]
+
         }
+        {   
+            "courseId": 4,
+            "courseName":"Programming in Large",
+            "courseCode":"CSSE2002",
+            "courseDescription": "courseDesc1",
+            "coursePrereqs": ["CSSE1001, ENG1001"],
+            "courseIncompatibles": ["COMP2500, COMP908, CSSE7023"],
+            "courseOutcomes": ["CSSE2310", "COMP3506", "COMP3702", "COSC3000", "DECO2800"],
+            "courseReviews": [
+                {
+                    "username":"Jane Doe",
+                    "content": "Really helpful course for further programming understanding",
+                    "dateposted":"14/04/20205",
+                    "rating":5                
+                },
+                {
+                    "username":"Kevin Stirn",
+                    "content": " The content was extremely interesting but it could be taught better",
+                    "dateposted":"30/02/23",
+                    "rating":3
+                }
+            ]
+      
+        }
+        {   "courseId":5 , 
+            "courseName":"Ethical Practice In Computing",
+            "courseCode":"COMP2200",
+            "courseDescription": "courseDesc1",
+            "coursePrereqs": ["CSSE1001","ENG1001","COMP1200"],
+            "courseIncompatibles": ["N/A"],
+            "courseOutcomes": ["COMP3506", "COMP3702", "COMP4403", "COMP4702", "DECO3801"],
+            "courseReviews": [
+                {
+                    "username":"Sean Mcloughlin",
+                    "content": "The course overall didn't have any major issue but was just very average",
+                    "dateposted":"22/05/26",
+                    "rating":3               
+                },
+                {
+                    "username":"Nicholas Stewart",
+                    "content": "Overall I thought the course was bringing up interesting ethical dilemma that shape computer science as a whole",
+                    "dateposted":"26/07/22",
+                    "rating":4
+                }
+            ]
+        }
+        {
+            "courseId":6 , 
+            "courseName":"Introduction to Computer Systems",
+            "courseCode":"CSSE2010",
+            "courseDescription": "courseDesc1",
+            "coursePrereqs": ["CSSE1001","ENG1001"],
+            "courseIncompatibles": ["COMP1300","COMP2303", "COMP2302", "CSSE1000", "CSSE7035", "CSSE7201","ELEC2002"],
+            "courseOutcomes": ["CSSE2310", "CSSE3010", "CSSE4010", "COMP3506"],
+            "courseReviews": [
+             {
+                    "username":"Mark Fischback",
+                    "content": "The course content is very practical for my degree",
+                    "dateposted":"04/11/25",
+                    "rating":4                
+                },
+                {
+                    "username":"Daniel Middleton",
+                    "content": " ",
+                    "dateposted":"The classes overall were very boring and I couldn't understand the content",
+                    "rating":2
+                }
+            ]
+            }
+        {
+            "courseId":7, 
+            "courseName":"Design Computing Studio 3",
+            "courseCode":"DEC03801",
+            "courseDescription":"courseDesc1",
+            "coursePreqs":["CSSE2002", "COMP2140"],
+            "courseIncompatibles":["CSSE4801", "DECO7381"],
+            "courseOutcomes":["DECO3800", "COSC3000", "COMP4702"],
+            "courseReviews":[
+            {
+                "username":"Justin Smith",
+                "content":"Very mediocore overall",
+                "dateposted":"27/07/25",
+                "rating":4
+            }
+            {
+                "username":"Alfred Cole",
+                "content":"Wheres the tools I want to make concrete all day",
+                "dateposted":"12/12/2022",
+                "rating":1
+            }
+            ]
+    
+        }
+
     ],
     "majors": [
         {
