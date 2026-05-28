@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import { redirect } from "react-router-dom";
 
 // Import all the pages here
@@ -15,13 +15,15 @@ const routes = createBrowserRouter([
     {
         path: "/",
         element: <Layout/>,
-        redirect: "/home",
         children: [
+            { index: true, element: <Navigate to="/home" replace /> },
             { path: '/home', element: <HomePage />},
             { path: '/degrees', element: <DegreeSearch />},
             { path: '/degree-plans', element: <DegreeTemplate />},
             { path: '/courses', element: <CourseSelectTemplate />},
-            { path: '/courses-select', element: <CourseSelectTemplate /> }
+            { path: '/courses-select', element: <CourseSelectTemplate /> },
+            { path: '/interviews', element: <HomePage /> },
+            { path: '/reviews', element: <HomePage /> }
         ]
     }
 ])

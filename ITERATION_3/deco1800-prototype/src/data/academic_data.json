@@ -69,7 +69,7 @@
                 }
             ]
 
-        }
+        },
         {   
             "courseId": 4,
             "courseName":"Programming in Large",
@@ -93,7 +93,7 @@
                 }
             ]
       
-        }
+        },
         {   "courseId":5 , 
             "courseName":"Ethical Practice In Computing",
             "courseCode":"COMP2200",
@@ -115,7 +115,7 @@
                     "rating":4
                 }
             ]
-        }
+        },
         {
             "courseId":6 , 
             "courseName":"Introduction to Computer Systems",
@@ -125,7 +125,7 @@
             "courseIncompatibles": ["COMP1300","COMP2303", "COMP2302", "CSSE1000", "CSSE7035", "CSSE7201","ELEC2002"],
             "courseOutcomes": ["CSSE2310", "CSSE3010", "CSSE4010", "COMP3506"],
             "courseReviews": [
-             {
+                {
                     "username":"Mark Fischback",
                     "content": "The course content is very practical for my degree",
                     "dateposted":"04/11/25",
@@ -138,32 +138,30 @@
                     "rating":2
                 }
             ]
-            }
+        },
         {
             "courseId":7, 
             "courseName":"Design Computing Studio 3",
             "courseCode":"DEC03801",
             "courseDescription":"courseDesc1",
-            "coursePreqs":["CSSE2002", "COMP2140"],
+            "coursePrereqs":["CSSE2002", "COMP2140"],
             "courseIncompatibles":["CSSE4801", "DECO7381"],
             "courseOutcomes":["DECO3800", "COSC3000", "COMP4702"],
             "courseReviews":[
-            {
-                "username":"Justin Smith",
-                "content":"Very mediocore overall",
-                "dateposted":"27/07/25",
-                "rating":4
-            }
-            {
-                "username":"Alfred Cole",
-                "content":"Wheres the tools I want to make concrete all day",
-                "dateposted":"12/12/2022",
-                "rating":1
-            }
+                {
+                    "username":"Justin Smith",
+                    "content":"Very mediocore overall",
+                    "dateposted":"27/07/25",
+                    "rating":4
+                },
+                {
+                    "username":"Alfred Cole",
+                    "content":"Wheres the tools I want to make concrete all day",
+                    "dateposted":"12/12/2022",
+                    "rating":1
+                }
             ]
-    
         }
-
     ],
     "majors": [
         {

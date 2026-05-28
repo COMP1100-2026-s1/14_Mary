@@ -89,66 +89,66 @@ function CourseTemplate() {
             {coursesToShow.map((course) => (
                     
 
-                            <div className="info-container" key={course.courseId}>
-                                <div className="course-heading">
-                                    <div className="course-name">{course.courseName}</div>
-                                    <div className="course-code">{course.courseCode}</div>
-                                </div>
+                <div className="info-container" key={course.courseId}>
+                    <div className="course-heading">
+                        <div className="course-name">{course.courseName}</div>
+                        <div className="course-code">{course.courseCode}</div>
+                    </div>
 
-                                <div className="course-tree">
-                                    <div className="tree-title"><span>{course.courseCode}</span></div>
-                                    <img src={tree_img} className="tree-image"></img>
-                                    <div className="under-tree">
-                                        <div className="tree-group">
-                                            {course.coursePrereqs.map((coursePrereqs, index) => (
-                                                <div key={index}>
-                                                    {coursePrereqs}
-                                                </div>
-                                            ))}
+                    <div className="course-tree">
+                        <div className="tree-title"><span>{course.courseCode}</span></div>
+                        <img src={tree_img} className="tree-image"></img>
+                        <div className="under-tree">
+                            <div className="tree-group">
+                                {course.coursePrereqs.map((coursePrereqs, index) => (
+                                    <div key={index}>
+                                        {coursePrereqs}
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                        <div className="future-courses">
+                            <div className="fc-heading">Future Courses:</div>
+                            <div className="fc-course-list">
+                                {course.courseOutcomes.map((code, index) => (
+                                    <div key={index}>{code}</div>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className="course-introduction">
+                        <div className="introduction-heading">Introduction to {course.courseCode}</div>
+                        <div className="course-description">
+                            {course.courseDescription}
+                        </div>
+                    </div>
+
+                    <div className="reviews-section">
+                        <div className="reviews-title">User Ratings and Reviews:</div>
+                        <div className="average-score">Average Rating: 8.7 out of 10</div>
+                        <div className="reviews-list">
+                            {
+                                course.courseReviews.map((review, index) => (
+
+                                    <div className="review">
+                                        <div className="review-picture">
+                                            <img src={pfp_img}></img>
+                                        </div>
+                                        <div className="review-text">
+                                            <div className="review-header">
+                                                <div className="review-username">{review.username}</div>
+                                                <div className="review-rating">{"☆".repeat(review.rating)}</div>
+                                            </div>
+                                            <div className="review-content">{review.content}</div>
                                         </div>
                                     </div>
-                                    <div className="future-courses">
-                                        <div className="fc-heading">Future Courses:</div>
-                                        <div className="fc-course-list">
-                                            {course.courseOutcomes.map((code, index) => (
-                                                <div key={index}>{code}</div>
-                                            ))}
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div className="course-introduction">
-                                    <div className="introduction-heading">Introduction to {course.courseCode}</div>
-                                    <div className="course-description">
-                                        {course.courseDescription}
-                                    </div>
-                                </div>
+                                ))
+                            }
+                        </div>
+                    </div>
 
-                                <div className="reviews-section">
-                                    <div className="reviews-title">User Ratings and Reviews:</div>
-                                    <div className="average-score">Average Rating: 8.7 out of 10</div>
-                                    <div className="reviews-list">
-                                        {
-                                            course.courseReviews.map((review, index) => (
-
-                                                <div className="review">
-                                                    <div className="review-picture">
-                                                        <img src={pfp_img}></img>
-                                                    </div>
-                                                    <div className="review-text">
-                                                        <div className="review-header">
-                                                            <div className="review-username">{review.username}</div>
-                                                            <div className="review-rating">{"☆".repeat(review.rating)}</div>
-                                                        </div>
-                                                        <div className="review-content">{review.content}</div>
-                                                    </div>
-                                                </div>
-                                            ))
-                                        }
-                                    </div>
-                                </div>
-
-                                <hr/>
+                    <hr/>
                         
                 </div>
                 
