@@ -1,0 +1,5 @@
+Main green: #297C18
+
+Darker green: #1B5310
+
+Lighter green: #73B665

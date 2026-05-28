@@ -141,10 +141,10 @@ function DegreeSearch() {
                         <div className="col-12">
 
                             {/* Degree Pill Selection */}
-                            <ul id="degree-pills-list" className="nav nav-pills border mt-2 p-2">
+                            <ul id="degree-pills-list" className="nav nav-pills border mt-2 p-2" >
                                 {degreeOptions.map((degree, index) => (
-                                    <li key={index} className="nav-item mx-2 my-1">
-                                        <a onClick={() => {setSelectedDegree(degree)}} className="nav-link active fs-5" href="#">{degree.degreeName}</a>
+                                    <li key={index} className="nav-item mx-2 my-1" style={{visibility: "hidden"}}>
+                                        <a onClick={() => {setSelectedDegree(degree)}} className="nav-link active fs-5" href="#" style={{backgroundColor: "#73B665", visibility: "visible"}}>{degree.degreeName}</a>
                                     </li>
                                 ))}
                             </ul>
@@ -179,7 +179,7 @@ function DegreeSearch() {
                                             <div key={index}>
                                                 <div className="accordion-item">
                                                     <h2 className="accordion-header" id="headingOne">
-                                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${index}`} aria-expanded="true" aria-controls="collapseOne">
+                                                        <button className="accordion-button no-outline" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${index}`} aria-expanded="true" aria-controls="collapseOne" style={{backgroundColor: "#73B665"}}>
                                                             {major.majorName}
                                                         </button>
                                                     </h2>
