@@ -1,0 +1,13 @@
+.no-outline:focus {
+  box-shadow: none;
+  border: none;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.no-outline{
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
