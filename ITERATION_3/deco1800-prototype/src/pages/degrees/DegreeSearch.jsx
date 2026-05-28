@@ -100,7 +100,7 @@ function DegreeSearch() {
                                                     <div className="" key={index}>
                                                         <div className="accordion-item">
                                                             <h2 className="accordion-header" id="headingOne">
-                                                                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${index}`} aria-expanded="true" aria-controls="collapseOne">
+                                                                <button className="accordion-button" type="button" style={{backgroundColor: "#73B665"}} data-bs-toggle="collapse" data-bs-target={`#collapse${index}`} aria-expanded="true" aria-controls="collapseOne">
                                                                     {majorBank.find(major => major.majorId == majorId).majorName}
                                                                 </button>
                                                             </h2>

@@ -3,7 +3,7 @@ import shears from "./favicon.svg";
 
 function Header() {
     return (
-        <nav className="navbar navbar-expand-lg sticky-top bg-gradient" style={{backgroundColor: "#52257b"}}>
+        <nav className="navbar navbar-expand-lg sticky-top bg-gradient" style={{backgroundColor: "#297C18"}}>
           <div className="container-fluid">
             <Link className="navbar-brand text-light" to="/home">
                 <span style={{fontStyle: "italic", fontWeight: "bold"}}>Course Pruner - UQ</span>
