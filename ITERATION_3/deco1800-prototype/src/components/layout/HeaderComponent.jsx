@@ -4,7 +4,7 @@ function Header() {
     return (
         <nav className="navbar navbar-expand-lg sticky-top bg-gradient" style={{backgroundColor: "#52257b"}}>
           <div className="container-fluid">
-            <Link className="navbar-brand text-light" to="/home">UQ Course Information Pad</Link>
+            <Link className="navbar-brand text-light" to="/home">UQ Course Information Pad[Deploy ver.]</Link>
 
             {/* Hamburger */}
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">

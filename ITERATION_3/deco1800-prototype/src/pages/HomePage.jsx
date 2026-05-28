@@ -15,7 +15,7 @@ function HomePage() {
       <div className="container">
         {/* Header Section */}
         <div className="text-center mb-5">
-          <h1 className="display-5 fw-bold">UQ Course Information Pad</h1><h6>Deploy ver.</h6>
+          <h1 className="display-5 fw-bold">UQ Course Information Pad</h1>
           <p className="lead text-muted">All the information you'll need about your UQ study plan - Right here with us.</p>
           <h2 className="h4 text-start mt-4 border-bottom pb-2">Overview</h2>
         </div>
