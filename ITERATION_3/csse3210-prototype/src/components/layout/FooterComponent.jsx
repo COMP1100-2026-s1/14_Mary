@@ -2,7 +2,7 @@ function Footer() {
     return (
         <div className="text-center mt-5">
             <small className="text-muted">
-                © 2026 UQ Course Information Pad - Gathering all you need in one place with us
+                © 2026 Course Pruner - UQ - Simplifying Course Selection for All Students
             </small>
         </div>
     )

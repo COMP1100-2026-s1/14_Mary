@@ -14,7 +14,7 @@ function DegreeTemplate() {
             
             {/* purple header of the table */}
             <div className="card shadow-sm border-0 mb-5 text-white" 
-                 style={{ background: 'linear-gradient(135deg, #49006A 0%, #1A002C 100%)', borderRadius: '15px' }}>
+                 style={{ background: 'linear-gradient(135deg, #1B5310 0%, #10320a 100%)', borderRadius: '15px' }}>
                 <div className="card-body p-5 text-center">
                     <span className="badge bg-light text-dark mb-2 px-3 py-2 rounded-pill fw-bold" style={{ fontSize: '0.9rem' }}>
                         UQ Study Planner
@@ -35,12 +35,12 @@ function DegreeTemplate() {
                     <div style={{
                          width: '4px', 
                          height: '24px', 
-                         backgroundColor: '#610e88f8', 
+                         backgroundColor: '#297C18', 
                          marginRight: '10px', 
                          borderRadius: '2px' 
                          }}>
                         </div>
-                    <h3 className="m-0 fw-bold" style={{ color: '#49006A' }}>Recommended Course Sequence</h3>
+                    <h3 className="m-0 fw-bold" style={{ color: '#297C18' }}>Recommended Course Sequence</h3>
                 </div>
 
                 <div className="table-responsive">
@@ -73,9 +73,9 @@ function DegreeTemplate() {
                                                     // purple card for actual courses
                                                     <div className="card border-0 shadow-sm text-center p-3 h-100 position-relative" 
                                                          style={{
-                                                             backgroundColor: '#f5f0fa', 
+                                                             backgroundColor: '#73B665', 
                                                              border: 'none !important', 
-                                                             borderLeft: '6px solid #49006A !important', 
+                                                             borderLeft: '6px solid #297C18 !important', 
                                                              boxShadow: '0 .125rem .25rem rgba(0,0,0,.075)', 
                                                              borderRadius: '8px',
                                                              minHeight: '80px', 
