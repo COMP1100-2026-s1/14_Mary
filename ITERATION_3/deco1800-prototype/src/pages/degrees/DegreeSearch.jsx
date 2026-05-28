@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 
 import academicData from '../../data/academic_data.json'
+import "./DegreeStyles.css"
 
 function DegreeSearch() {
 
@@ -100,7 +101,7 @@ function DegreeSearch() {
                                                     <div className="" key={index}>
                                                         <div className="accordion-item">
                                                             <h2 className="accordion-header" id="headingOne">
-                                                                <button className="accordion-button" type="button" style={{backgroundColor: "#73B665"}} data-bs-toggle="collapse" data-bs-target={`#collapse${index}`} aria-expanded="true" aria-controls="collapseOne">
+                                                                <button className="accordion-button custom-accordion-btn" type="button" style={{backgroundColor: "#73B665"}} data-bs-toggle="collapse" data-bs-target={`#collapse${index}`} aria-expanded="true" aria-controls="collapseOne">
                                                                     {majorBank.find(major => major.majorId == majorId).majorName}
                                                                 </button>
                                                             </h2>

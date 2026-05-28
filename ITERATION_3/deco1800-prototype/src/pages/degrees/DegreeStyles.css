@@ -1,0 +1,5 @@
+.custom-accordion-btn,
+.custom-accordion-btn:not(.collapsed) {
+    background-color: #73B665 !important;
+    color: white;
+}
