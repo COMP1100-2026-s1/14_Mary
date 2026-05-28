@@ -58,7 +58,7 @@ function DegreeSearch() {
                             <ul id="degree-pills-list" className="nav nav-pills border mt-2 p-2">
                                 {degreeOptions.map((degree, index) => (
                                     <li key={index} className="nav-item mx-2 my-1">
-                                        <button onClick={() => {setSelectedDegree(degree)}} type="button" className="nav-link active fs-5">{degree.degreeName}</button>
+                                        <button onClick={() => {setSelectedDegree(degree)}} type="button" className="nav-link active fs-5" style={{backgroundColor: "#73B665"}}>{degree.degreeName}</button>
                                     </li>
                                 ))}
                             </ul>
