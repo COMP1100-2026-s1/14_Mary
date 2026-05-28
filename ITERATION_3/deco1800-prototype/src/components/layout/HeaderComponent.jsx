@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom";
+import shears from "./favicon.svg";
 
 function Header() {
     return (
         <nav className="navbar navbar-expand-lg sticky-top bg-gradient" style={{backgroundColor: "#52257b"}}>
           <div className="container-fluid">
-            <Link className="navbar-brand text-light" to="/home">UQ Course Information Pad[Deploy ver.]</Link>
+            <Link className="navbar-brand text-light" to="/home">
+                <span style={{fontStyle: "italic", fontWeight: "bold"}}>Course Pruner - UQ</span>
+                <img src={shears} style={{height: "2rem", paddingLeft: "1rem"}}></img>
+            </Link>
 
             {/* Hamburger */}
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
