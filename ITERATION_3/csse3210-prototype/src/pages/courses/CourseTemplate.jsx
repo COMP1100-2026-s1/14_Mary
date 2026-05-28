@@ -114,7 +114,7 @@ function CourseTemplate() {
     }, [location.state]);
 
     //FILTER LOGIC VERSION 2: More robust handling of empty search results and dropdown selection
-const coursesToShow = (() => {
+    const coursesToShow = (() => {
         if (selectedId) {
             return courses.filter(c => c.id === selectedId);
         }
@@ -127,8 +127,6 @@ const coursesToShow = (() => {
             }
             return filtered;
         }
-        
-        
         return courses;
     })();
 
