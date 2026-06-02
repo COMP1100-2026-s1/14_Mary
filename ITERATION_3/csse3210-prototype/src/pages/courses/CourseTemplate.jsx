@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState , useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import './CourseTemplate.css';
 import tree_img from './assets/tree.png'
 import pfp_img from './assets/silhouette-male-icon.svg'
 
 function CourseTemplate() {
+
+
 
     var courseDesc1 = `
         Introduction to innovation using computer science and information technology through a 
@@ -99,12 +102,39 @@ function CourseTemplate() {
     // Set the state to search for courses
     const [filteredCourses, setFilteredCourses] = useState(courses);
     const [searchInput, setSearchInput] = useState("");
-    const [selectedId, setSelectedId] = useState("");
+    const [selectedId, setSelectedId] = useState(null);
 
-    const coursesToShow = selectedId 
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.state && location.state.searchKeyword) {
+            setSearchInput(location.state.searchKeyword);
+            setSelectedId(null); // Clear dropdown selection when searching by keyword
+        }
+    }, [location.state]);
+
+    //FILTER LOGIC VERSION 2: More robust handling of empty search results and dropdown selection
+    const coursesToShow = (() => {
+        if (selectedId) {
+            return courses.filter(c => c.id === selectedId);
+        }
+        
+        if (searchInput.trim() !== "") {
+            const filtered = courses.filter(c => c.code.toLowerCase().includes(searchInput.toLowerCase().trim()));
+            
+            if (filtered.length === 0) {
+                return courses; 
+            }
+            return filtered;
+        }
+        return courses;
+    })();
+
+/*     FILTER LOGIC VERSION 1
+        const coursesToShow = selectedId 
         ? courses.filter(c => c.id === selectedId) 
         : courses.filter(c => c.code.toLowerCase().includes(searchInput.toLowerCase()));
-
+*/
     // Define the logic used for searching
     const handleSearch = (e) => {
         setSearchInput(e.target.value);
@@ -126,7 +156,13 @@ function CourseTemplate() {
                     <div className="row">
                         <div className="col-12 col-md-6">
                             <label htmlFor="course-code-search" className="form-label">Course Code</label>
-                            <input type="text" onChange={handleSearch} className="form-control" id="course-code-search" placeholder="Input Course Code Here"></input>
+                            <input 
+                            type="text" 
+                            value={searchInput}
+                            onChange={handleSearch} 
+                            className="form-control" 
+                            id="course-code-search" 
+                            placeholder="Input Course Code Here"></input>
                         </div>
                         <div className="col-12 col-md-6">
                             {/* Main Dropdown Section */}
