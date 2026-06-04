@@ -23,6 +23,11 @@
 
 6.  Based on your past experiences with enrolling, what are some features that weren’t present or well implemented, that you desired or felt that an enrolment system should have had? 
 
+7.  Did you feel that the enrolment system is responsive enough in sending feedback, confirmation and/or warnings when selecting courses, and if not, what kinds of feedback or responses would you feel would provide sufficient confirmation or prevent unsurety after clicking a button? 
+
+8.  How can you confirm that the courses you choose actually meet your Program Requirements? How do you think the current system performs in terms of 'progression checking'?
+
+9.  How is your experience using the "waitlist" option? Do you think the current system handles this transparently enough?
 7. Did you feel that the enrolment system is responsive enough in sending feedback, confirmation and/or warnings when selecting courses, and if not, what kinds of feedback or responses would you feel would provide sufficient confirmation or prevent uncertainty after clicking a button? 
 
 ## Hypothesis 2
