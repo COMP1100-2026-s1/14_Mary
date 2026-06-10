@@ -1,7 +1,16 @@
 # test card (final)
 
-**TEST**
+**HYPOTHESIS**:
+We believe that our product provides students with a comprehensive course planning platform, including degree plans, prerequisite visualization, course information, and peer reviews, which will help students make more informed course selection decisions and reduce the need to search across multiple university websites.
+
+**TEST**:
 Regarding user experience, respondents were asked whether they found the various features useful. And asked their opinions on what aspects of the product should be added.
+
+**METRIC**:
+Measure the percentage of participants who understand the product’s purpose, find the key features (degree plans, prerequisite visualisation, and course reviews) useful, believe it reduces the need to visit multiple websites, and are willing to use it despite occasional advertisements.
+
+**CRITERIA**: 
+We are right if at least 80% of participants understand the product’s purpose, the main features receive an average usefulness rating of 4/5 or higher, at least 70% agree it reduces the need to search multiple websites, and at least 60% indicate that advertisements would not significantly affect their willingness to use the product.
 
 **Interveiw Question** 
 1. Based on this demo, what do you think this product is trying to help you do?
