@@ -106,29 +106,32 @@ function CourseTemplate() {
 
     const location = useLocation();
 
-    useEffect(() => {
-        if (location.state && location.state.searchKeyword) {
-            setSearchInput(location.state.searchKeyword);
-            setSelectedId(null); // Clear dropdown selection when searching by keyword
-        }
-    }, [location.state]);
+useEffect(() => {
+    if (!location.state?.searchKeyword) return;
+
+    const matchedCourse = courses.find(
+        c => c.code === location.state.searchKeyword
+    );
+
+    if (matchedCourse) {
+        setSelectedId(matchedCourse.id);
+    }
+}, []); 
 
     //FILTER LOGIC VERSION 2: More robust handling of empty search results and dropdown selection
-    const coursesToShow = (() => {
-        if (selectedId) {
-            return courses.filter(c => c.id === selectedId);
-        }
-        
-        if (searchInput.trim() !== "") {
-            const filtered = courses.filter(c => c.code.toLowerCase().includes(searchInput.toLowerCase().trim()));
-            
-            if (filtered.length === 0) {
-                return courses; 
+        const coursesToShow = (() => {
+            if (selectedId !== null && selectedId !== undefined) {
+                return courses.filter(c => c.id === selectedId);
             }
-            return filtered;
-        }
-        return courses;
-    })();
+
+            if (searchInput.trim() !== "") {
+                return courses.filter(c =>
+                    c.code.toLowerCase().includes(searchInput.toLowerCase().trim())
+                );
+            }
+
+            return courses;
+        })();
 
 /*     FILTER LOGIC VERSION 1
         const coursesToShow = selectedId 
@@ -159,7 +162,10 @@ function CourseTemplate() {
                             <input 
                             type="text" 
                             value={searchInput}
-                            onChange={handleSearch} 
+                            onChange={(e) => {
+                                setSearchInput(e.target.value);
+                                setSelectedId(null);
+                            }}
                             className="form-control" 
                             id="course-code-search" 
                             placeholder="Input Course Code Here"></input>
