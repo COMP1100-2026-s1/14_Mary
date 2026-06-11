@@ -23,7 +23,7 @@ OR After getting used to this product, what do you think it is trying to help yo
 7. From what you have seen, would this help reduce the need to check multiple websites when choosing courses? Why or why not?
 8. How would you feel about ads being shown while using a product like this, for example one appearing every few searches, and would that affect your willingness to use it?
 
-
+ 
 
 
 
